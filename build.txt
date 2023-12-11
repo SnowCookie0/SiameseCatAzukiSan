@@ -1,0 +1,3 @@
+displayName = 暹罗猫小豆泥是世界的中心
+author = SnowCookie
+version = 0.1
