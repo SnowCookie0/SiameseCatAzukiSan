@@ -2,13 +2,13 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Projectiles.Pets
+namespace SiameseCatAzukiSan.Projectiles.Pets
 {
 	public class ProjectilePet : ModProjectile
 	{
 		public override void SetStaticDefaults() {
 			// DisplayName.SetDefault("Paper Airplane"); // Automatic from .lang files
-			Main.projFrames[projectile.type] = 4;
+			Main.projFrames[projec0tile.type] = 4;
 			Main.projPet[projectile.type] = true;
 		}
 

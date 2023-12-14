@@ -7,7 +7,7 @@ namespace SiameseCatAzukiSan.Buffs
 	{
 		public override void SetDefaults() {
 			DisplayName.SetDefault("Ebi");
-			Description.SetDefault("No fishy smell, but it smells a bit like catnip.");
+			Description.SetDefault("Now you smells like cat nip as well!");
 			Main.buffNoTimeDisplay[Type] = true;
 			Main.buffNoSave[Type] = true;
 		}

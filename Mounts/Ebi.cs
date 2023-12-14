@@ -15,7 +15,7 @@ namespace SiameseCatAzukiSan.Mounts
 	public class Ebi : ModMountData
 	{
 		public override void SetDefaults() {
-			mountData.spawnDust = ModContent.DustType<Smoke>();
+			mountData.spawnDust = ModContent.DustType<Fur>();
 			mountData.buff = ModContent.BuffType<EbiMount>();
 			mountData.heightBoost = 20;
 			mountData.fallDamage = 0.5f;
